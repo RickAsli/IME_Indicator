@@ -4,6 +4,8 @@
 
 ![demo](./assets/demo.png)
 
+![demo](./assets/demo.gif)
+
 ## 核心特性
 
 - **光标跟随**：在文本光标下方显示彩色指示球（支持记事本、VS Code、Chrome 等主流软件）。
@@ -39,3 +41,4 @@
 ---
 作者：Antigravity & Haujet  
 GitHub: [https://github.com/HaujetZhao/IME_Indicator](https://github.com/HaujetZhao/IME_Indicator)
+
