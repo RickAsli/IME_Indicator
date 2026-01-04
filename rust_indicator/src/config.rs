@@ -121,23 +121,53 @@ fn load_config() -> Config {
         if let Some(v) = get("poll",  "state_interval_ms") { if let Ok(n) = v.parse() { config.poll_state_interval_ms = n; } }
         if let Some(v) = get("poll",  "track_interval_ms") { if let Ok(n) = v.parse() { config.poll_track_interval_ms = n; } }
         
-        if let Some(v) = get("tray", "enable") { config.tray_enable = v == "true"; }
+        if let Some(v) = get("tray", "enable") { 
+            match v.as_str() {
+                "true" => config.tray_enable = true,
+                "false" => config.tray_enable = false,
+                _ => {} // 保持默认值
+            }
+        }
         
-        if let Some(v) = get("caret", "enable")   { config.caret_enable = v == "true"; }
+        if let Some(v) = get("caret", "enable") { 
+            match v.as_str() {
+                "true" => config.caret_enable = true,
+                "false" => config.caret_enable = false,
+                _ => {}
+            }
+        }
         if let Some(v) = get("caret", "color_cn") { config.caret_color_cn = v.parse_color(); }
         if let Some(v) = get("caret", "color_en") { config.caret_color_en = v.parse_color(); }
         if let Some(v) = get("caret", "size")     { if let Ok(n) = v.parse() { config.caret_size = n; } }
         if let Some(v) = get("caret", "offset_x") { if let Ok(n) = v.parse() { config.caret_offset_x = n; } }
         if let Some(v) = get("caret", "offset_y") { if let Ok(n) = v.parse() { config.caret_offset_y = n; } }
-        if let Some(v) = get("caret", "show_en")  { config.caret_show_en = v == "true"; }
+        if let Some(v) = get("caret", "show_en") { 
+            match v.as_str() {
+                "true" => config.caret_show_en = true,
+                "false" => config.caret_show_en = false,
+                _ => {}
+            }
+        }
 
-        if let Some(v) = get("mouse", "enable")   { config.mouse_enable = v == "true"; }
+        if let Some(v) = get("mouse", "enable") { 
+            match v.as_str() {
+                "true" => config.mouse_enable = true,
+                "false" => config.mouse_enable = false,
+                _ => {}
+            }
+        }
         if let Some(v) = get("mouse", "color_cn") { config.mouse_color_cn = v.parse_color(); }
         if let Some(v) = get("mouse", "color_en") { config.mouse_color_en = v.parse_color(); }
         if let Some(v) = get("mouse", "size")     { if let Ok(n) = v.parse() { config.mouse_size = n; } }
         if let Some(v) = get("mouse", "offset_x") { if let Ok(n) = v.parse() { config.mouse_offset_x = n; } }
         if let Some(v) = get("mouse", "offset_y") { if let Ok(n) = v.parse() { config.mouse_offset_y = n; } }
-        if let Some(v) = get("mouse", "show_en")  { config.mouse_show_en = v == "true"; }
+        if let Some(v) = get("mouse", "show_en") { 
+            match v.as_str() {
+                "true" => config.mouse_show_en = true,
+                "false" => config.mouse_show_en = false,
+                _ => {}
+            }
+        }
         if let Some(v) = get("mouse", "target_cursors") {
             config.mouse_target_cursors = v.trim_matches(|c| c == '[' || c == ']')
                 .split(',').filter_map(|s| s.trim().parse().ok()).collect();
